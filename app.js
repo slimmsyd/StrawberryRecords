@@ -29,7 +29,7 @@ window.onscroll = function () {
   if (window.pageYOffset > 0) {
     navbar.style.backgroundColor = "rgba(0, 0, 0, 0)";
   } else {
-    navbar.style.backgroundColor = "rgba(0, 0, 0, 1)";
+    navbar.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
   }
 };
 
