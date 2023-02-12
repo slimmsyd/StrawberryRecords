@@ -229,7 +229,7 @@ header{
     }
     .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
         background-position: top ;
-        background-size: contain !important;
+        background-size: cover !important;
         background-repeat: no-repeat;
     }
     .bgTwo,.bgThree,.bgFour,.bgSix{
