@@ -232,6 +232,10 @@ header{
         background-size: contain !important;
         background-repeat: no-repeat;
     }
+    .bgTwo,.bgThree,.bgFour,.bgSix{
+   background-position-y: -480px;
+
+    }
 
 }    
 
