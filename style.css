@@ -465,6 +465,8 @@ header{
    background:#030200;
 }
 .mail-list{
+   font-family: 'Bebas Neue', cursive;
+
     display: flex;
     justify-content: space-between;
     width: 90%;
