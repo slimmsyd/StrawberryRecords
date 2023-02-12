@@ -170,7 +170,7 @@ a{
 {
     .swiper {
         width: 100%;
-        height: 100%;
+        height: 100vh;
       }
     header{
         position:relative;
@@ -229,11 +229,11 @@ header{
     }
     .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
         background-position: top ;
-        background-size: contain !important;
+        background-size: cover !important;
         background-repeat: no-repeat;
     }
     .bgTwo,.bgThree,.bgFour,.bgSix{
-   background-position-y: -480px;
+        background-position: center;
 
     }
 
