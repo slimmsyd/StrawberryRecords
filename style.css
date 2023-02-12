@@ -227,16 +227,12 @@ header{
     .nav-links ul li a { 
         font-size: 40px;
     }
-    .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
+    /* .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
         background-position: top ;
         background-size: cover !important;
         background-repeat: no-repeat;
-    }
-    .bgTwo,.bgThree,.bgFour,.bgSix{
-        background-position: center;
-
-    }
-
+    } */
+   
 }    
 
 
