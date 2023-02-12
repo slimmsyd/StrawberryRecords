@@ -229,6 +229,7 @@ header{
     }
     .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
         background-position: center center;
+        background-size: contain !important;
     }
 
 }    
