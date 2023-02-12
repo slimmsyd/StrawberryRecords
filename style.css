@@ -228,7 +228,7 @@ header{
         font-size: 40px;
     }
     .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
-        background-position: center center;
+        background-position: top ;
         background-size: contain !important;
     }
 
