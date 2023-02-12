@@ -230,6 +230,7 @@ header{
     .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
         background-position: top ;
         background-size: contain !important;
+        background-repeat: no-repeat;
     }
 
 }    
@@ -452,7 +453,7 @@ header{
 }
 
 
-/* Contact us  */
+/* Contact us  */z
 .contact{
     position: relative;
     height: 100vh;
