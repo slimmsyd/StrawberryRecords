@@ -224,7 +224,7 @@ header{
 
 
   .bgOne{
-    background-position-y: bottom;
+    background-position: center center !important ;
     background-size: cover;
 
   }
