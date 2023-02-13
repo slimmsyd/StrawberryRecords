@@ -195,6 +195,7 @@ header{
     .banner-foreground{
         justify-content: center !important;
         align-items:center !important;
+        padding-bottom: 195.25% !important;
     }
     .nav{
         background: transparent  !important;
