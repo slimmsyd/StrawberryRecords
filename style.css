@@ -230,8 +230,8 @@ header{
 
   }
   .bgTwo{
-    background-position-y: bottom;
-    background-size: cover;
+    background-position-y: center;
+    background-size: contain;
 
   }
   .bgThree{
