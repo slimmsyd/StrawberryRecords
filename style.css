@@ -225,11 +225,11 @@ header{
         font-size: 40px;
     }
   .bgOne{
-    background-position: center;
+    background-position-y: bottom;
     background-size: contain;
 
   }
-  .bgOne{
+  .bgTwo{
     background-position-y: bottom;
     background-size: contain;
 
