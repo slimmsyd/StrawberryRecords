@@ -240,6 +240,10 @@ header{
    .swiper{
     height: 400px !important;
    }
+
+   .banner-title{
+    transform: translateY(-280px) !important;
+   }
 }    
 
 
