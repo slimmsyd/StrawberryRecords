@@ -84,7 +84,10 @@ div{
     vertical-align: baseline;
 }
 
+header{
+    overflow: hidden;
 
+}
 main{ 
     background: #030200;
     height: 100vh;
@@ -113,7 +116,7 @@ a{
    background-image: url('./images/TFEMI.png');
    background-size: cover;
    background-attachment: fixed;
-background-position: top;
+  /* background-position: center center; */
 
 
 }
@@ -126,7 +129,7 @@ background-position: top;
 }
 .bgThree
 { 
-    background-image: url('./images/JU!CE.png');  
+    background-image: url('./images/RELIC\ RYMES.png');  
     background-size: cover;
     background-attachment: fixed !important;
 }
@@ -165,7 +168,7 @@ background-position: top;
 {
     header{
         position:relative;
-        /* height: 100vh; */
+        height: 100vh;
     
     }
 }
@@ -177,7 +180,7 @@ background-position: top;
 @media screen and (max-width: 650px)
 { 
     .banner-background{
-        height: 100%;
+        height: 100vh;
     }
 }
 .swiper {
@@ -188,17 +191,10 @@ header{
     position:relative;
 
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 555px){
     .banner-foreground{
         justify-content: center !important;
         align-items:center !important;
-        padding-bottom: 195.25% !important;
-        background-size: contain !important;
-    }
-    .banner-background{
-        padding-bottom: 195.25% !important;
-        background-size: 100% 100% !important;
-
     }
     .nav{
         background: transparent  !important;
@@ -226,11 +222,21 @@ header{
         font-size: 40px;
     }
 
-    .section-header{
-        transform: translateY(18px) !important; 
-    }
 
+  .bgOne{
+    background-position-y: bottom;
+    background-size: cover;
 
+  }
+  .bgTwo{
+    background-position-y: center;
+    background-size: contain;
+
+  }
+  .bgThree{
+    background-position-y: center;
+    background-size: contain;
+  }
    
 }    
 
@@ -244,7 +250,7 @@ header{
     top: 0;
     left: 0;
     width: -webkit-fill-available;
-    height: 100vh;
+    height: 100%;
     z-index: 1;
     justify-content: flex-end;
     align-items: flex-end;
