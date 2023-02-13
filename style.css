@@ -226,6 +226,10 @@ header{
         font-size: 40px;
     }
 
+    .section-header{
+        transform: translateY(18px) !important; 
+    }
+
 
    
 }    
