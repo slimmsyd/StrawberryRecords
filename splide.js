@@ -1,3 +1,10 @@
+
+new Splide( '.splide', {
+    type    : 'loop',
+    autoplay: 'pause',
+  } ).mount();
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
