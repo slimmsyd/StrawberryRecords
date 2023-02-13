@@ -223,20 +223,6 @@ header{
     }
 
 
-  .bgOne{
-    background-position-y: bottom;
-    background-size: contain;
-
-  }
-  .bgTwo{
-    background-position-y: center;
-    background-size: contain;
-
-  }
-  .bgThree{
-    background-position-y: center;
-    background-size: contain;
-  }
    
 }    
 
