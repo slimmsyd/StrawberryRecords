@@ -128,20 +128,18 @@ a{
     background-image: url('./images/RELIC\ RYMES.png');  
     background-size: cover;
     background-position: fixed !important ;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 .bgThree
 { 
     background-image: url('./images/JU!CE.png');  
     background-size: cover;
-    background-position: fixed !important ;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 .bgFour
 { 
     background-image: url('./images/CAM\ LAVISH.JPG');  
     background-size: cover;
-    background-position: fixed !important ;
     background-attachment: fixed;
     
 }
@@ -149,8 +147,7 @@ a{
 { 
     background-image: url('./images/RIESE\ KENDRICK.JPG');  
     background-size: cover;
-    background-position: fixed !important ;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position-y: center;
 
 }
@@ -158,8 +155,7 @@ a{
 { 
     background-image: url('./images/ENFINOT.png');  
     background-size: cover;
-    background-position: fixed !important ;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position-y: center;
 
 }
@@ -228,11 +224,10 @@ header{
     .nav-links ul li a { 
         font-size: 40px;
     }
-    /* .bgTwo, .bgThree, .bgFour, .bgSix, .bgOne{
-        background-position: top ;
-        background-size: cover !important;
-        background-repeat: no-repeat;
-    } */
+  .bgOne{
+    background-position: center;
+
+  }
    
 }    
 
