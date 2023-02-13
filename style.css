@@ -177,10 +177,13 @@ a{
         /* height: 599px  !important; */
     }
 }
-@media screen and (max-width: 650px)
+@media screen and (max-width: 750px)
 { 
     .banner-background{
         height: 100vh;
+    }
+    .section-header{ 
+        transform: translateY(20px) !important ;
     }
 }
 .swiper {
