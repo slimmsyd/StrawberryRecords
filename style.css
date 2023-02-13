@@ -236,7 +236,7 @@ header{
   }
   .bgThree{
     background-position-y: 500px;
-    background-size: cover;
+    background-size: contain;
   }
    
 }    
