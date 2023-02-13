@@ -7,7 +7,6 @@ const swiper = new Swiper('.swiper', {
     },
     allowTouchMove: false,
 
-    slidesPerView: '1',
   
     // If we need pagination
     pagination: {
