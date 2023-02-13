@@ -631,6 +631,7 @@ option{
     width: 900px;
     display: flex;
     justify-content: flex-end;
+    gap: 15px
 
 }
 .footer-socials a { 
