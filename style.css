@@ -247,7 +247,9 @@ header{
 }    
 
 
-
+label{
+    color: #fff;
+}
 
 .banner-foreground
 {
