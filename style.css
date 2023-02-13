@@ -131,7 +131,6 @@ a{
 { 
     background-image: url('./images/RELIC\ RYMES.png');  
     background-size: cover;
-    background-position: fixed !important ;
     background-attachment: fixed !important;
 }
 .bgFour
@@ -222,6 +221,8 @@ header{
     .nav-links ul li a { 
         font-size: 40px;
     }
+
+
   .bgOne{
     background-position-y: bottom;
     background-size: contain;
