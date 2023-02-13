@@ -225,7 +225,7 @@ header{
 
   .bgOne{
     background-position: center center !important ;
-    background-size: cover;
+    background-size: contain !important;
 
   }
   .bgTwo{
