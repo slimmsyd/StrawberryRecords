@@ -300,39 +300,27 @@ header{
 /* Header section  */
 .headersection {
     height: 120vh;
-    width: 100%;
     background: url('/images/RELIC\ RYMES.png');
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
 }
 .headercontent {
     height: 100%;
+    background: ;
     display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
-@media screen and (max-width: 750px)
-{ 
-    .contentcontainer img {
-        width: 60%;
-        height: 60%;
-    }
-}
 .contenttextmain {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 50px;
     
     
-}
-.contentcontainer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
 }
 /* header section end */
 /* section part */
@@ -410,14 +398,7 @@ header{
 .artist-overlay:hover{
     opacity: 1;
 }
-@media screen and (max-width: 769px)
-{
-    .artist-overlay{
-        background: transparent;
-        opacity:  1;
-    }
 
-}
 .artist-socials{
     display: flex;
     margin-left: auto;
@@ -570,25 +551,11 @@ option{
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     cursor: pointer;
-    border: none;
 
 }
 .submit:hover{
     background: #8d17e7;
     
-}
-
-.form-input-rows{
-    font-family: 'Bebas Neue', cursive;
-    background: transparent !important;
-    border: 0;
-    border-bottom: 2px solid #780acd;
-    color: white;
-    box-shadow: none !important;
-    font-size: 16px;
-    font-weight: normal;
-    height: 95px;
-    padding-left: 1px;
 }
 
 
@@ -601,21 +568,3 @@ option{
     }
 }
 /* Contact us  */
-
-.footer-socials{ 
-    margin-left: auto;
-    margin-right: 30px;
-    width: 900px;
-    display: flex;
-    justify-content: flex-end;
-
-}
-.footer-socials a { 
-    height: 24px;
-    width: 24px;
-}
-.footer-socials a img { 
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}

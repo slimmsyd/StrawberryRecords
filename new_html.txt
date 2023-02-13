@@ -46,7 +46,6 @@
     <div class="headersection">
         <div class="headercontent">
             <div class="contentcontainer">
-                <img src = "./images/logobunny.png" />
             <h1 class="contenttextmain">STRAWBERRY MANSION RECORDS</h1>
         </div>
     </div>
@@ -169,20 +168,14 @@
                         <label for = "input-email"><span>EMAIL</span></label>
                         <input class = "form-input" name = "email" id = "form-input" type = "email" required = "required" placeholder="Email Address">
                         <label for = "input-country"><span>Tell us More</span></label>
-                        <input rows = "8" class = "form-input-rows" name = "text" type = "text" placeholder="Tell us more" required> 
+                        <input class = "form-input" name = "text" type = "text" placeholder="Tell us more" required> 
                     </div>
 
-                    <button type = "submit" class = "submit">submit</button>
+                    <button class = "submit">submit</button>
                     
                 </form>
             </div>
 
-        </div>
-        <div class = "footer-socials">
-            <a href = "#"><img src = "./images/Tiktok.png" /></a>
-            <a href = "#"><img src = "./images/instagram.png" /></a>
-            <a href = "#"><img src = "./images/Twitter.png" /></a>
-            <a href = "#"><img src = "./images/Youtube.png" /></a>
         </div>
 
 
