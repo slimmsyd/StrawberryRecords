@@ -237,7 +237,9 @@ header{
     background-position-y: center;
     background-size: contain;
   }
-   
+   .swiper{
+    height: 400px !important;
+   }
 }    
 
 
