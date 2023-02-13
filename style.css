@@ -166,12 +166,13 @@ a{
 .swiper-wrapper{
     height: 100% !important;
 }
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
 @media screen and (min-width: 1900px)
 {
-    .swiper {
-        width: 100%;
-        height: 100vh;
-      }
     header{
         position:relative;
         height: 100vh;
