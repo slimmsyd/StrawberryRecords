@@ -230,7 +230,7 @@ header{
 
   }
   .bgOne{
-    background-position: center;
+    background-position-y: bottom;
     background-size: contain;
 
   }
