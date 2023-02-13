@@ -177,7 +177,7 @@ a{
 }
 @media screen and (max-width: 1440px){
     .swiper{
-        height: 599px  !important;
+        /* height: 599px  !important; */
     }
 }
 @media screen and (max-width: 650px)
@@ -235,7 +235,7 @@ header{
 
   }
   .bgThree{
-    background-position-y: bottom;
+    background-position-y: 500px;
     background-size: cover;
   }
    
