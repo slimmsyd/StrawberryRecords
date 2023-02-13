@@ -226,6 +226,12 @@ header{
     }
   .bgOne{
     background-position: center;
+    background-size: contain;
+
+  }
+  .bgOne{
+    background-position: center;
+    background-size: contain;
 
   }
    
