@@ -197,6 +197,10 @@ header{
         align-items:center !important;
         padding-bottom: 195.25% !important;
     }
+    .banner-background{
+        padding-bottom: 195.25% !important;
+
+    }
     .nav{
         background: transparent  !important;
         font-size: 20px;
